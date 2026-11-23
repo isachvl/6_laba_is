@@ -1,0 +1,12 @@
+{
+  "first_round_success": 4,
+  "n": 10,
+  "changes": [
+    "Short discriminative search terms and source reading before file creation.",
+    "Availability via interval overlap and day calendar.",
+    "Contact lookup routed to email; preserve exact request constraints."
+  ],
+  "selection": "Only 10 development tasks were inspected; no final-task tuning.",
+  "second_round_success": 5,
+  "rounds": 2
+}

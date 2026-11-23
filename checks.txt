@@ -1,0 +1,8 @@
+test_role_restriction_rejects_other_service (test_multi.Checks.test_role_restriction_rejects_other_service) ... ok
+test_scripted_files_then_email_matches_task33 (test_multi.Checks.test_scripted_files_then_email_matches_task33) ... ok
+test_shared_limit_stops_at_15_across_workers (test_multi.Checks.test_shared_limit_stops_at_15_across_workers) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.375s
+
+OK
