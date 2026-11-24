@@ -1,0 +1,16 @@
+{
+  "runs": 4,
+  "metrics": [
+    "median_input_tokens",
+    "median_model_calls",
+    "median_peak_input_tokens",
+    "success"
+  ],
+  "plots": [
+    "analysis/architecture.png",
+    "analysis/full_request.png"
+  ],
+  "traces": 91,
+  "report_pages": 4,
+  "interrupted_episodes_included": 1
+}

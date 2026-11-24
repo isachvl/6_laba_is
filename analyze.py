@@ -14,8 +14,8 @@ def csv_file(path,data):
         writer=csv.DictWriter(f,fieldnames=list(data[0]));writer.writeheader();writer.writerows(data)
 
 def stats(data,key):
-    values=[r[key] for r in data]
-    return {'median':statistics.median(values),'min':min(values),'max':max(values),'total':sum(values)}
+    values=[r[key] for r in data if r[key] is not None]
+    return {'n_observed':len(values),'median':statistics.median(values),'min':min(values),'max':max(values),'total':sum(values)}
 
 def compare(a,b,ids):
     first={r['task']:r for r in a};second={r['task']:r for r in b}
@@ -108,7 +108,7 @@ def plots(s):
     fig,axes=plt.subplots(1,2,figsize=(8,3),layout='constrained')
     exp=s['experiment2'];labels=['Только подзадача','Подзадача + запрос']
     bars=axes[0].bar(labels,[exp['pairs']['single_success'],exp['pairs']['multi_success']],color=['#2563eb','#15956b']);axes[0].bar_label(bars,padding=3);axes[0].set(title='Выбранные 10 задач',ylabel='Решено задач',ylim=(0,11))
-    bars=axes[1].bar(labels,[exp['context'][n]['median'] for n in ['subtask','full_request']],color=['#2563eb','#15956b']);axes[1].bar_label(bars,fmt='%.0f',padding=3);axes[1].set(title='Медиана пикового входа',ylabel='Входные токены')
+    bars=axes[1].bar(labels,[exp['context'][n]['median'] for n in ['subtask','full_request']],color=['#2563eb','#15956b']);axes[1].bar_label(bars,fmt='%.0f',padding=3);axes[1].set(title='Медиана пикового входа',ylabel='Входные токены',ylim=(0,max(exp['context'][n]['median'] for n in ['subtask','full_request'])*1.25))
     fig.savefig('analysis/full_request.png',dpi=170);plt.close(fig)
 
 if __name__=='__main__':

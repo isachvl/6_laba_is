@@ -1,0 +1,11 @@
+﻿architecture,metric,n_observed,median,min,max,total
+single,model_calls,30,3.0,2,6,97
+single,tool_calls,30,2.0,1,5,70
+single,input_tokens,30,12175.0,7467,66936,504354
+single,output_tokens,30,324.0,84,892,11071
+single,seconds,30,6.444126300000789,1.9252167999984522,40.83635300000242,299.47160110000186
+multi,model_calls,30,5.5,3,23,212
+multi,tool_calls,30,2.0,0,12,85
+multi,input_tokens,30,7953.0,2604,40765,332796
+multi,output_tokens,30,407.5,95,2274,15818
+multi,seconds,29,9.069413500023074,2.6381927999900654,44.312238799990155,328.5889391002711

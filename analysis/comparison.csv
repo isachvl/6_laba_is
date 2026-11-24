@@ -1,0 +1,4 @@
+﻿group,n,single_success,multi_success,gained,lost
+all,30,14,8,user_task_14;user_task_22,user_task_5;user_task_7;user_task_9;user_task_13;user_task_18;user_task_21;user_task_27;user_task_29
+multi_service,7,2,0,,user_task_13;user_task_18
+single_service,23,12,8,user_task_14;user_task_22,user_task_5;user_task_7;user_task_9;user_task_21;user_task_27;user_task_29

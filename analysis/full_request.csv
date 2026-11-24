@@ -1,0 +1,11 @@
+﻿task,subtask_success,full_success,subtask_input_tokens,full_input_tokens,subtask_peak,full_peak
+user_task_13,False,False,17980,25496,1976,2242
+user_task_15,False,False,12675,16119,4646,2363
+user_task_18,False,False,37702,27497,2239,2263
+user_task_19,False,False,10072,21283,2011,2105
+user_task_23,False,False,9413,9345,2362,2095
+user_task_25,False,False,40765,23938,9376,9513
+user_task_33,False,False,3953,10683,1246,1947
+user_task_34,False,False,26301,9747,9609,2410
+user_task_5,False,True,17955,18449,2006,2065
+user_task_30,False,False,15181,16002,1888,1886

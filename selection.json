@@ -1,0 +1,33 @@
+{
+  "rule": "All 7 multi-service tasks, plus 3 single-service tasks: failures first, then descending episode input tokens; ties by task ID.",
+  "source_sha256": "e8576ffc630812daeb544bc1568046c0d47fc1867987242172eb423118e0893f",
+  "tasks": [
+    "user_task_13",
+    "user_task_15",
+    "user_task_18",
+    "user_task_19",
+    "user_task_23",
+    "user_task_25",
+    "user_task_33",
+    "user_task_34",
+    "user_task_5",
+    "user_task_30"
+  ],
+  "selected_single": [
+    {
+      "task": "user_task_34",
+      "utility": false,
+      "input_tokens": 26301
+    },
+    {
+      "task": "user_task_5",
+      "utility": false,
+      "input_tokens": 17955
+    },
+    {
+      "task": "user_task_30",
+      "utility": false,
+      "input_tokens": 15181
+    }
+  ]
+}

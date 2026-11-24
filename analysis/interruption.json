@@ -1,0 +1,7 @@
+{
+  "task": "user_task_9",
+  "date_observed": "2026-11-25",
+  "cause": "Original process no longer available; only a partial saved trace remains. Environment and final utility evaluation unavailable.",
+  "original_trace_sha256": "d4c2265d46bfab6d77271db07253ecb847ad7ecba317adfa95e30a1864500aa3",
+  "accounting": "Recorded calls and tokens are observed lower bounds; full duration is unknown. No retry of this main episode."
+}
