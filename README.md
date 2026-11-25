@@ -3,6 +3,8 @@
 Windows PowerShell, Python 3.12. Для показа готовых результатов модель и GPU не нужны. Откройте PowerShell в папке проекта:
 
 ```powershell
+git clone https://github.com/isachvl/6_laba_is.git
+cd 6_laba_is
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-demo.txt
 .\.venv\Scripts\python.exe prepare_laptop.py
